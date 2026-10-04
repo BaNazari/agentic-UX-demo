@@ -5,6 +5,7 @@ import { viteSingleFile } from 'vite-plugin-singlefile'
 
 // `npm run build:single` inlines everything into one HTML file for the live demo.
 export default defineConfig(({ mode }) => ({
+  base: './',
   plugins: [react(), ...(mode === 'single' ? [viteSingleFile()] : [])],
   test: {
     environment: 'jsdom',
