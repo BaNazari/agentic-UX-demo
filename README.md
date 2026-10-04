@@ -1,5 +1,8 @@
 # EPD Explorer
 
+Live link:
+https://banazari.github.io/agentic-UX-demo/
+
 A list of Environmental Product Declarations (EPDs) with a URL-synced type filter and a simulated assistant. The assistant answers comparison questions by choosing how the page displays the result.
 
 The assistant is simulated and the ten EPDs are fictional, so it runs anywhere without an API key. Its answers are computed from the data, not stored.
