@@ -121,6 +121,12 @@ textarea {
   color: var(--muted);
 }
 
+.content {
+  margin: 0 0 2px;
+  font-size: 14px;
+  letter-spacing: 0.08em;
+}
+
 /* ---------- Shell ---------- */
 
 .app {

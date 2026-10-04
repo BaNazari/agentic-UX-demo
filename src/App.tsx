@@ -70,6 +70,7 @@ export default function App({ agentSpeed = 1 }: { agentSpeed?: number }) {
         <h2 id="search-title" className="visually-hidden">
           Filter EPDs
         </h2>
+        <p className="content">This demo does not deal with edge cases such as race conditions between agent request/response or user input, search debounce, or any other real edge case in agentic ui. This is just a start point for agentic UX design, before going for real architecture and solid contracts.</p>
         <ul className="search__notes">
           <li>You can filter by type, enter the complete value of type</li>
           <li>While filtered lists should be sharable, the url follows the search state</li>
